@@ -6,7 +6,9 @@
 /**** code oculta link autor template ******************/
 /***  <div style='font-size:1px; opacity:0;'> ****/
 /*************************************************/
-
+body {
+  background: pink !important;
+}
 
  <!-- 👇 Estilos personalizados para ocultar la paginación de Blogger -->
 
