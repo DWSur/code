@@ -1,0 +1,246 @@
+/*************************************************/
+/******* CSS externo en Github********************/
+/******* 24/05/2025 v.240520250936****************/
+/*************************************************/
+
+/**** code oculta link autor template ******************/
+/***  <div style='font-size:1px; opacity:0;'> ****/
+/*************************************************/
+
+
+ <!-- 👇 Estilos personalizados para ocultar la paginación de Blogger -->
+
+<style>
+
+  /* Oculta el contenedor del paginador automático (blog-pager) */
+
+  #blog-pager {
+
+    display: none !important;
+
+  }
+
+</style>
+
+<!-- 👇 Oculta el botón o contenedor con clase simple-viewmore boton mostrar mas -->
+
+<style>
+
+  .simple-viewmore {
+
+    display: none !important;
+
+  }
+
+</style>
+
+<!-- 
+
+🔗 Estilo para enlaces externos: negrita + icono al final
+
+-->
+
+<style>
+
+  a[target=&quot;_blank&quot;] {
+
+    font-weight: bold;         /* Aplica negrita */
+
+    text-decoration: none;     /* Opcional: quita el subrayado */
+
+  }
+
+
+
+  a[target=&quot;_blank&quot;]::after {
+
+    content: &quot; 🔗&quot;;            /* Icono de enlace externo */
+
+    font-size: 0.85em;
+
+    margin-left: 0.25em;
+
+    vertical-align: middle;
+
+  }
+
+</style>
+
+
+
+<!-- 👇 Oculta completamente el pie de los posts (post-footer) -->
+
+<style>
+
+  #post-footer {
+
+    display: none !important;
+
+  }
+
+</style>
+
+<!-- 👇 Oculta cualquier bloque con las clases: related-runs, type-related y open-iki -->
+
+<style>
+
+  .related-runs.type-related.open-iki {
+
+    display: none !important;
+
+  }
+
+</style>
+
+
+
+<!-- 👇 Oculta el sidebar y expande el contenido en escritorio -->
+
+<!-- 
+
+📌 CSS para Blogger: Oculta el sidebar derecho y hace que el contenido se extienda a lo ancho
+
+-->
+
+<style>
+
+  /* Ocultar el sidebar */
+
+  #sidebar-container {
+
+    display: none !important;
+
+  }
+
+
+
+  /* Eliminar el diseño en filas que reserva espacio para el sidebar */
+
+  .outer-container,
+
+  .container.outer-container {
+
+    display: block !important;
+
+  }
+
+
+
+  /* Forzar al contenido a ocupar todo el ancho */
+
+  .post-inner-area {
+
+    width: 100% !important;
+
+    max-width: 100% !important;
+
+    margin: 0 auto !important;
+
+    padding: 0 !important;
+
+  }
+
+
+
+  /* También puedes extender el centro del contenido si está limitado */
+
+  #center-container {
+
+    width: 100% !important;
+
+    max-width: 100% !important;
+
+  }
+
+
+
+  /* Asegurar que los hijos de outer-container no tengan tamaño fijo */
+
+  .outer-container &gt; * {
+
+    flex: none !important;
+
+    width: 100% !important;
+
+  }
+
+</style>
+
+<!-- 
+
+🎨 Mejora estética: Añade padding lateral bonito y responsive al contenido principal
+
+-->
+
+<style>
+
+  .post-inner-area {
+
+    padding-left: 20px;
+
+    padding-right: 20px;
+
+
+
+    /* Mejora visual en pantallas grandes */
+
+    @media (min-width: 768px) {
+
+      padding-left: 40px;
+
+      padding-right: 40px;
+
+    }
+
+
+
+    @media (min-width: 1200px) {
+
+      padding-left: 80px;
+
+      padding-right: 80px;
+
+    }
+
+  }
+
+  
+
+  .all-flex {
+
+    padding: 10px;
+
+}
+
+  
+
+  nav#breadcrumb {
+
+    padding: 10px;
+
+}
+
+  
+
+  h1.entry-title {
+
+    padding: 0px 0px 0px 7px !important;
+
+}
+
+</style>
+
+    
+
+<!-- Ocultar la sección de redes sociales en quienes somos con id=LinkList7 -->
+
+<style>
+
+  #LinkList7 {
+
+    display: none !important;
+
+  }
+
+</style>
+
