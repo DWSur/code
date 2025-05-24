@@ -216,11 +216,11 @@
   }
 
 /* Estilos para el contenedor del pie de página */
-   .footer-custom-text {
+   #link-pie {
      text-align: center; /* Centra el texto horizontalmente */
                     }
 
  /* Obliga al texto a ser de color blanco */
-   .footer-custom-text p {
+   #link-pie p {
       color: #FFFFFF !important; /* Blanco */
                   }
