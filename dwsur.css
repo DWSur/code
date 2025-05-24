@@ -7,9 +7,8 @@
 /***  <div style='font-size:1px; opacity:0;'> ****/
 /*************************************************/
 
- <!-- 👇 Estilos personalizados para ocultar la paginación de Blogger -->
 
-<style>
+ <!-- 👇 Estilos personalizados para ocultar la paginación de Blogger -->
 
   /* Oculta el contenedor del paginador automático (blog-pager) */
 
@@ -19,11 +18,9 @@
 
   }
 
-</style>
 
 <!-- 👇 Oculta el botón o contenedor con clase simple-viewmore boton mostrar mas -->
 
-<style>
 
   .simple-viewmore {
 
@@ -31,15 +28,11 @@
 
   }
 
-</style>
 
-<!-- 
 
-🔗 Estilo para enlaces externos: negrita + icono al final
+<!-- 🔗 Estilo para enlaces externos: negrita + icono al final -->
 
--->
 
-<style>
 
   a[target=&quot;_blank&quot;] {
 
@@ -63,13 +56,10 @@
 
   }
 
-</style>
-
 
 
 <!-- 👇 Oculta completamente el pie de los posts (post-footer) -->
 
-<style>
 
   #post-footer {
 
@@ -77,11 +67,11 @@
 
   }
 
-</style>
+
 
 <!-- 👇 Oculta cualquier bloque con las clases: related-runs, type-related y open-iki -->
 
-<style>
+
 
   .related-runs.type-related.open-iki {
 
@@ -89,19 +79,9 @@
 
   }
 
-</style>
 
+<!-- 📌 CSS para Blogger: Oculta el sidebar derecho y hace que el contenido se extienda a lo ancho -->
 
-
-<!-- 👇 Oculta el sidebar y expande el contenido en escritorio -->
-
-<!-- 
-
-📌 CSS para Blogger: Oculta el sidebar derecho y hace que el contenido se extienda a lo ancho
-
--->
-
-<style>
 
   /* Ocultar el sidebar */
 
@@ -110,7 +90,6 @@
     display: none !important;
 
   }
-
 
 
   /* Eliminar el diseño en filas que reserva espacio para el sidebar */
@@ -122,8 +101,6 @@
     display: block !important;
 
   }
-
-
 
   /* Forzar al contenido a ocupar todo el ancho */
 
@@ -163,7 +140,6 @@
 
   }
 
-</style>
 
 <!-- 
 
@@ -171,7 +147,7 @@
 
 -->
 
-<style>
+
 
   .post-inner-area {
 
@@ -227,13 +203,11 @@
 
 }
 
-</style>
 
     
 
 <!-- Ocultar la sección de redes sociales en quienes somos con id=LinkList7 -->
 
-<style>
 
   #LinkList7 {
 
@@ -241,5 +215,5 @@
 
   }
 
-</style>
+
 
