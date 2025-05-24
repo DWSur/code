@@ -6,8 +6,11 @@
 /**** code oculta link autor template ******************/
 /***  <div style='font-size:1px; opacity:0;'> ****/
 /*************************************************/
+ /* oculta link vermas */
+a.simple-viewmore {
+    display: none;
 
-
+ }
  <!-- 👇 Estilos personalizados para ocultar la paginación de Blogger -->
 
   /* Oculta el contenedor del paginador automático (blog-pager) */
